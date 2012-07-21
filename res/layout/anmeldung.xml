@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    <EditText 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Code" 
+    android:id="@+id/pin"></EditText>
+    
+    <Button android:text="Account Anlegen" android:layout_width="match_parent" android:onClick="action" android:layout_height="wrap_content" android:id="@+id/PinButton"></Button>
+    <CheckBox android:text="Account geladen" android:id="@+id/check" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+  
+    
+    <WebView 
+    android:id="@+id/login" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent">
+    </WebView>
+   
+</LinearLayout>
